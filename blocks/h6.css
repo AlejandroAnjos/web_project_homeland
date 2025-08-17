@@ -1,4 +1,5 @@
-h6 {
+h6,
+.content_text2 {
   max-width: 722px;
   font-family: "Inter";
   font-weight: 400;
@@ -7,14 +8,16 @@ h6 {
 }
 
 @media screen and (max-width: 768px) {
-  h6 {
+  h6,
+  .content_text2 {
     max-width: 720px;
     line-height: 1.63; /* 163% já está em decimal, mantido */
   }
 }
 
 @media screen and (max-width: 320px) {
-  h6 {
+  h6,
+  .content_text2 {
     max-width: 288px;
     font-size: 16px;
     line-height: 1.63; /* 163% já está em decimal, mantido */

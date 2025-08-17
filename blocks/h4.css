@@ -1,4 +1,4 @@
-h4 {
+h4, .content_text {
   max-width: 738px;
   font-family: "Inter";
   font-weight: 400;
@@ -7,14 +7,14 @@ h4 {
 }
 
 @media screen and (max-width: 768px) {
-  h4 {
+  h4, .content_text{
     max-width: 720px;
     line-height: 1.417; /* 34px / 24px */
   }
 }
 
 @media screen and (max-width: 320px) {
-  h4 {
+ h4, .content_text{
     max-width: 288px;
     font-size: 24px;
     line-height: 1.25; /* 30px / 24px */
