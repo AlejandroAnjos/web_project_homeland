@@ -1,9 +1,9 @@
-.content_intro {
+.intro {
   max-width: 984px;
   margin: 0 auto;
 }
 
-.content_intro_title {
+.intro__title {
   max-width: 830px;
   font-family: "Inter";
   line-height: 1.074; /* 58px / 54px */
@@ -12,12 +12,12 @@
 }
 
 @media screen and (max-width: 768px) {
-  .content_intro {
+  .intro {
     margin-left: 24px;
     margin-right: 24px;
   }
 
- .content_intro_title {
+ .intro__title {
     max-width: 707px;
     line-height: 1.089; /* 49px / 45px */
     font-size: 45px;
@@ -25,12 +25,12 @@
 }
 
 @media screen and (max-width: 320px) {
-   .content_intro {
+   .intro {
     margin-left: 24px;
     margin-right: 24px;
   }
 
-  .content_intro_title {
+  .intro__title {
     max-width: 288px;
     line-height: 1.094; /* 35px / 32px */
     font-size: 32px;

@@ -6,12 +6,12 @@
   align-items: center;
 }
 
-.header_logo {
+.header__logo {
   max-width: 254px;
   margin-top: 34px;
 }
 
-.header_title {
+.header__title {
   max-width: 720px;
   font-size: 96px;
   line-height: 100px;
@@ -21,7 +21,7 @@
   font-weight: 900;
 }
 
-.header_subtitle {
+.header__subtitle {
   max-width: 720px;
   font-family: "Inter";
   font-size: 30px;
@@ -30,7 +30,7 @@
   text-align: center;
 }
 
-.header_image {
+.header__image {
   width: 100%;
 }
 
@@ -41,10 +41,10 @@
     margin-right: 24px;
   }
 
-  .header_title {
+  .header__title {
     max-width: 530px;
     font-size: 75px;
-    line-height: 1.053; /* 79px / 75px */
+    line-height: 1.053;
   }
 }
 
@@ -54,21 +54,20 @@
     margin-left: 24px;
     margin-right: 24px;
   }
-
-  .header_logo {
+}
+  .header__logo {
     max-width: 188px;
     margin-top: 20px;
   }
 
-  .header_title {
+  .header__title {
     max-width: 228px;
     font-size: 40px;
-    line-height: 1.1; /* 44px / 40px */
+    line-height: 1.1;
   }
 
-  .header_subtitle {
+  .header__subtitle {
     max-width: 288px;
     font-size: 16px;
-    line-height: 1.25; /* 20px / 16px */
-  }
+    line-height: 1.25;
 }
