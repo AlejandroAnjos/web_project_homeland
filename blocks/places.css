@@ -4,6 +4,7 @@
   display: flex;
   gap: 80px;
   flex-direction: column;
+  margin-top: 92px;
 }
 .places__item {
   display: grid;
@@ -11,18 +12,15 @@
     "title artist"
     "image description"
     "button description"
-    ". description"
-    ;
+    ". description";
 
   column-gap: 40px;
   row-gap: 48px;
   grid-template-columns: 460px 1fr;
- grid-template-rows: auto auto 1fr;
-
+  grid-template-rows: auto auto 1fr;
 }
 .places__title {
   margin: 0;
-
   align-self: self-end;
   grid-area: title;
   font-family: Inter;
