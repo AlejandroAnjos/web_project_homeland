@@ -3,6 +3,7 @@
 }
 
 .photo-grid__images {
+  max-width: 1280px;
   gap: 16px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -15,13 +16,14 @@
   object-fit: cover;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
+
   .photo-grid__images {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 544px) {
   .photo-grid__images {
     grid-template-columns: 1fr;
   }
