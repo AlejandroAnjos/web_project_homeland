@@ -19,6 +19,7 @@
 
 @media screen and (max-width: 1024px) {
   .photo-grid__images {
+    padding: 24px;
     grid-template-columns: repeat(2, 1fr);
   }
 }
